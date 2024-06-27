@@ -1,5 +1,5 @@
 requests==2.22.0
-Django==2.2.7
+Django==2.2.24
 celery_progress
 celery
 redis
@@ -15,3 +15,4 @@ maxminddb
 xmltodict
 python-libnmap
 lxml
+sqlparse>=0.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
